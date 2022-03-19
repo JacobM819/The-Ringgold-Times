@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(65, 65, 65);
+    margin: 0;
+    padding: 0;
+}
+a:visited{
+    text-decoration: none;
+    color: lightgrey;
+}
+nav {
+    height: 10%; 
+    background-color: rgb(48, 48, 48); 
+    padding:0; 
+    margin:0; 
+    display: flex; 
+    justify-content: center;
+}
+nav div {
+    font-size: 25px;
+    border-right: 2px solid lightgrey;
+    text-decoration: none;
+    color: white;
+    padding: .5% 2% .5% 2%;
+}
+.navLink{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+.alert {
+    padding-right: .5%;
+}
+#headerContainer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+header h2{
+    text-align: center;
+    color: lightgrey;
+    font-family: Libre Franklin, sans-serif;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    margin-left: 5%; 
+    margin-top: 50px;
+    font-family: Libre Franklin, sans-serif;
+    color:rgb(230, 230, 230);
+}
+.text{
+    font-family: Libre Franklin, Libre;
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+}
+main div {
+    margin: 0 40%;
+}
+main h1 {
+    text-align: center;
+}
+aside {
+    margin: 50px 30px 60% 40px;
+    width: 150px;
+    float: left;
+}
+aside h2 {
+    text-align: center;
+}
+aside ol {
+    text-align: center;
+}
+footer {
+    height: 100px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+}
+footer h2 {
+    margin: 2% 0;
+}
+
+

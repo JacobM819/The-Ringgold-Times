@@ -12,8 +12,8 @@ a:visited{
     color: lightgrey;
 }
 nav {
-    height: 10%; background-color: 
-    rgb(48, 48, 48); 
+    height: 10%; 
+    background-color: rgb(48, 48, 48); 
     padding:0; 
     margin:0; 
     display: flex; 
@@ -25,6 +25,9 @@ nav div {
     text-decoration: none;
     color: white;
     padding: .5% 2% .5% 2%;
+}
+.alert {
+    padding-right: .5%;
 }
 #headerContainer{
     display: flex; 
@@ -38,11 +41,8 @@ header h2{
     margin-bottom: 20px;
 }
 .mainContainer{
-    height:1%;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 5px;
+    margin: 20px 3% 10px 5%;
     background-color: rgb(235, 235, 235);
     border: 4px solid lightgrey;
     border-radius: 20px;
@@ -59,6 +59,7 @@ header h2{
     transition-duration: 500ms;
     height:250px;
     margin:auto;
+    border-radius: 20px;
 }
 
 .image:hover{
@@ -78,10 +79,8 @@ main div div {
 }
 
 main div div p{
-    margin:auto;
-    padding-right: 20px;
     font-family: Rubik, sans-serif;
-    font-size: 150%;
+    font-size: 140%;
     color: rgb(75, 75, 75);
 }
 
@@ -90,27 +89,28 @@ main div div p{
     font-size: 20px;
     color: rgb(209, 209, 209);
 }
-.header-img{
+.navLink{
     color: rgb(230, 230, 230);
     text-decoration: none;
 }
-
-#button{
-    color: white;
-    background: rgb(69, 131, 182);;
-    border:0;
-    border-radius: 24mm;
-    padding: 15px 42px;
-    transition: all .5s ease;
-    text-decoration: none;
-    font-family: Rubic, sans-serif;
-    font-size: 15px;
-    margin-bottom: 50px;
+aside {
+    margin: 50px 30px 25% 40px;
+    width: 150px;
+    float: left;
 }
-#button:hover{
-    border-radius:0mm;
-    color: orange;
-    background-color: rgb(92, 170, 235);
+aside h2 {
+    text-align: center;
+}
+aside ol {
+    text-align: center;
+}
+footer {
+    height: 100px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+}
+footer h2 {
+    margin: 2% 0;
 }
 
 
